@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> Calculator </title>
+</head>
+<body>
+	<div class="calculator">
+		<div class="display"></div>
+		
+		<div class="buttonsContainer">
+			<button value ="7" onclick="buttonClick(this.value)"> 7 </button>
+			<button value ="8" onclick="buttonClick(this.value)"> 8 </button>
+			<button value ="9" onclick="buttonClick(this.value)"> 9 </button>
+			<button value ="" onclick="buttonDel()"> DEL </button>
+			<button value ="" onclick="buttonClear()"> AC </button>
+
+			<button value ="4" onclick="buttonClick(this.value)"> 4 </button>
+			<button value ="5" onclick="buttonClick(this.value)"> 5 </button>
+			<button value ="6" onclick="buttonClick(this.value)"> 6 </button>
+			<button value ="*" onclick="buttonClick(this.value)"> x </button>
+			<button value ="/" onclick="buttonClick(this.value)"> / </button>
+
+			<button value ="1" onclick="buttonClick(this.value)"> 1 </button>
+			<button value ="2" onclick="buttonClick(this.value)"> 2 </button>
+			<button value ="3" onclick="buttonClick(this.value)"> 3 </button>
+			<button value ="+" onclick="buttonClick(this.value)"> + </button>
+			<button value ="-" onclick="buttonClick(this.value)"> - </button>
+
+
+			<button value ="0" onclick="buttonClick(this.value)"> 0 </button>
+			<button value ="." onclick="buttonClick(this.value)"> . </button>
+			<button value ="*10**" onclick="buttonClick(this.value)"> 
+				x10<sup>x</sup> </button>
+			<button value ="" onclick="calc()"> Ans </button>
+			<button value ="" onclick="calc()"> = </button>
+
+		</div>
+
+	</div>
+
+
+	<script src="script.js"></script>
+</body>
+</html>

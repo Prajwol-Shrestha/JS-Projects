@@ -1,0 +1,19 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+button{
+	padding: 1rem 2rem 1rem 2rem;
+	margin: 1rem;
+	border-radius: 15%;
+	font-size: 2rem;
+}
+
+.flexContainer{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-size: 2rem;
+}

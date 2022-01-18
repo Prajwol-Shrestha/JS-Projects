@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+:root{
+	--paleBlue: hsl(225, 100%, 94%);
+	--brightBlue: hsl(245, 75%, 52%);
+	--veryPaleBlue: hsl(225, 100%, 98%);
+	--desaturatedBlue: hsl(224, 23%, 55%);
+	--darkBlue: hsl(223, 47%, 23%);
+	--white: hsl(100, 100%, 100%);
+}
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	max-height: 100vh;
+	font-family: 'Oswald', sans-serif; /*400, 500, 700*/
+}
+h1{
+	text-align: center;
+	background-color: var(--paleBlue);
+	padding: 5rem;
+	letter-spacing: .2rem;
+	font-size: 3rem;
+}
+
+.flexContainer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: var(--paleBlue);
+	height: auto;
+}
+.cardContainer{
+	width: 18rem;
+	background-color: var(--desaturatedBlue);
+	border-radius: 1rem;
+	margin: 2rem;
+	box-shadow: 10px 15px 12px 0px rgba(107,106,106,0.75);
+}
+
+.cardContent{
+	margin: 2rem;
+}
+.imgContainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img{
+	width: 13rem;
+	padding: 1rem;
+}
+.stdDetails{
+	text-align: left;
+}
+li{
+	letter-spacing: .1rem;
+	list-style: none;
+	line-height: 2rem;
+	font-weight: 400;
+}
+span{
+	font-weight: 500;
+}
+.checked{
+	color: orange;
+}
+
+.floating {
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+.floating:hover{
+	animation: none;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 15px); }
+	100% { transform: translate(0, -0px); }
+}

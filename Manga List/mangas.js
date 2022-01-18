@@ -71,5 +71,21 @@ mangas = [
 	},
 
 
+	{
+		id: 8,
+		name: "Return Of Mount Hua Sect",
+		img: './images/returnOfMountHuaSect.jpg',
+		tags: 'Cultivation, Martial Arts, Reincarnation',
+		translation: 'Excellent',
+	},
+
+
+	{
+		id: 9,
+		name: "Cultivator Against Hero Society",
+		img: './images/cultivatorAgainstHeroSociety.jpg',
+		tags: 'Cultivation, Isekai',
+		translation: 'Excellent',
+	},
 
 ]

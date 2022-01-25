@@ -7,10 +7,10 @@ const displayTime = () =>{
 
 	let time = null;
 	if (hours > 12){
-		time = hours - 12 + ":" + minutes + ":" + seconds + " AM";
+		time = hours - 12 + ":" + minutes + ":" + seconds + " PM";
 	}
 	else{
-		time = hours + ":" + minutes + ":" + seconds + " PM";
+		time = hours + ":" + minutes + ":" + seconds + " AM";
 	}
 
 	document.getElementById('displayTime').innerHTML = time;

@@ -1,6 +1,7 @@
 // Selecting Elements
 
 const flexEl = document.querySelector('.flexContainer');
+const starsEl = document.querySelectorAll('.cardContent');
 
 
 // Render manga ID Cards
@@ -19,11 +20,12 @@ function renderIdCards(){
  						<li> <span> Name :	<!-- &nbsp; --> </span> ${manga.name} </li>
 	 					<li> <span> Tags 	: </span> ${manga.tags} </li>
 	 					<li> <span> Translation : </span> ${manga.translation} </li>
-	 					<li> Rating: <span class="fa fa-star checked"></span>
+	 					<li> Rating: 
+	 						<span class="fa fa-star checked"></span>
 							<span class="fa fa-star checked"></span>
 							<span class="fa fa-star checked"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
 						</li>
 	 				</ul>
  				</div>
@@ -34,4 +36,6 @@ function renderIdCards(){
 }
 
 renderIdCards();
+
+
 

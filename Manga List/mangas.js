@@ -8,6 +8,7 @@ mangas = [
 		img: './images/aboveTenThousandPeople.jpg',
 		tags: 'Cultivation, Comedy, Reincarnation',
 		translation: 'Excellent',
+		rating: 3,
 	},
 
 	{
@@ -16,6 +17,7 @@ mangas = [
 		img: './images/martialPeak.jpg',
 		tags: 'Cultivation, Martial Arts',
 		translation: 'Excellent',
+		rating: 3,
 	},
 
 	{
@@ -24,6 +26,8 @@ mangas = [
 		img: './images/apotheosis.jpg',
 		tags: 'Cultivation, Martial Arts',
 		translation: 'Excellent',
+		rating: 3,
+
 	},
 
 	{
@@ -32,6 +36,8 @@ mangas = [
 		img: './images/magicEmperor.jpg',
 		tags: 'Cultivation, Martial Arts, Reincarnation',
 		translation: 'Excellent',
+		rating: 3,
+
 	},
 
 
@@ -41,6 +47,8 @@ mangas = [
 		img: './images/talesOfDemonsAndGods.jpg',
 		tags: 'Cultivation, Martial Arts, Reincarnation',
 		translation: 'Excellent',
+		rating: 3,
+
 	},
 
 
@@ -50,6 +58,8 @@ mangas = [
 		img: './images/theConstellationThatReturnedFromHell.jpg',
 		tags: 'Cultivation, Martial Arts ',
 		translation: 'Excellent',
+		rating: 3,
+
 	},
 
 
@@ -59,6 +69,8 @@ mangas = [
 		img: './images/wanderingWarriorOfWudang.jpg',
 		tags: 'Cultivation, Martial Arts, Reincarnation',
 		translation: 'Excellent',
+		rating: 3,
+
 	},
 
 
@@ -68,6 +80,8 @@ mangas = [
 		img: './images/playerThatCannotLevelUp.jpg',
 		tags: '',
 		translation: 'Excellent',
+		rating: 3,
+
 	},
 
 
@@ -77,6 +91,8 @@ mangas = [
 		img: './images/returnOfMountHuaSect.jpg',
 		tags: 'Cultivation, Martial Arts, Reincarnation',
 		translation: 'Excellent',
+		rating: 3,
+
 	},
 
 
@@ -86,6 +102,7 @@ mangas = [
 		img: './images/cultivatorAgainstHeroSociety.jpg',
 		tags: 'Cultivation, Isekai',
 		translation: 'Excellent',
+		rating: 3,
 	},
 
 ]

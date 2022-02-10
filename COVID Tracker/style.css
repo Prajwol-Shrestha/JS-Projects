@@ -1,0 +1,50 @@
+:root{
+
+}
+
+*,html,body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url('bgImg.jpg') center no-repeat;
+	background-size: cover;
+}
+h1{
+	text-align: center;
+}
+.main-container{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	padding: 4rem 0;
+	color: white;
+}
+input, button{
+	padding: .5rem;
+	margin: .5rem 4rem;
+	width: 60vw;
+}
+button{
+	background-color: lightgreen;
+	border-radius: .5rem;
+	border: none;
+}
+.input-container{
+	display: flex;
+	flex-direction: column;
+}
+.display-content{
+	margin-top: 2rem;
+	padding: 2rem;
+	background-color: purple;
+	display: none;
+	letter-spacing: .08rem;
+	border-radius: 1rem;
+	color: white;
+}

@@ -33,7 +33,7 @@ input, button{
 button{
 	background-color: lightgreen;
 	border-radius: .5rem;
-	border: none;
+	border: 2px solid grey;
 }
 .input-container{
 	display: flex;
@@ -47,4 +47,14 @@ button{
 	letter-spacing: .08rem;
 	border-radius: 1rem;
 	color: white;
+}
+
+@media (min-width: 768px){
+	.input-container{
+		flex-direction: row;
+	}
+	input, button{
+		width: 20vw;
+		margin: .5rem 1rem;
+	}
 }

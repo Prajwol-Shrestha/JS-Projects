@@ -1,8 +1,8 @@
 const obj = [
 	{
 		id: 0,
-		qn: 'How are you?',
-		ans: 'I am fine',
+		qn: 'FAQ question one?',
+		ans: 'FAQ answer one',
 	},
 
 	{
@@ -12,12 +12,12 @@ const obj = [
 	},
 	{
 		id: 2,
-		qn: 'Okay?',
-		ans: 'Ok',
+		qn: 'FAQ question two?',
+		ans: 'FAQ answer two',
 	},
 	{
 		id: 3,
-		qn: 'HOHO?',
-		ans: 'Haha',
+		qn: 'FAQ question three?',
+		ans: 'FAQ question three',
 	}
 ];

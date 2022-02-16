@@ -1,0 +1,24 @@
+*, html, body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+h2{
+	text-align: center;
+	padding: 4rem 0 1rem 0;
+	text-decoration: underline;
+}
+
+.section-center{
+	display: grid;
+	/*grid-template-columns: repeat(2, 1fr);*/
+}
+
+.menu-item{
+	padding: 1rem;
+}
+
+.photo{
+	width: 100%;
+}

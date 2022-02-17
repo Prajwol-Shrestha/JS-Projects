@@ -10,8 +10,8 @@ const btnContainer = document.querySelector('.btn-container')
  });
 
 
- //filter Items
 
+// Display Menu Items
 
  function displayMenuItems(menuItems){
     let displayMenu = menuItems.map(function(item){
@@ -19,8 +19,8 @@ const btnContainer = document.querySelector('.btn-container')
                    <img src="${item.img}" class="photo" alt="Menu Item">
                    <div class="item-content">
                        <header> 
-                           <h2> ${item.title}</h2>
-                           <h2> $ ${item.price}</h2>
+                           <h3> ${item.title}</h3>
+                           <h3> Rs. ${item.price}</h3>
                        </header>
                        <p class="item-text"> ${item.desc} </p>
                    </div>
@@ -32,13 +32,16 @@ const btnContainer = document.querySelector('.btn-container')
  }
 
 
+ // Display Menu buttons and its functionality
+//filter Items
+
  function displayMenuBtns(){
     const categories = menu.reduce(function(values, item){
         if(!values.includes(item.category)){
             values.push(item.category);
         }
         return values;
-    }, ['all'])
+    }, ['All'])
 
     const categoryBtns = categories.map((category) => {
         return `<button class="filter-btn" type="button" data-id = "${category}"> ${category} </button>`
@@ -56,9 +59,8 @@ const btnContainer = document.querySelector('.btn-container')
             if( menuItem.category === category){
                 return menuItem;
             }
-
         })
-        if(category === 'all'){
+        if(category === 'All'){
             displayMenuItems(menu);
         }
         else{
